@@ -11819,7 +11819,7 @@ $( document ).ready(function(){
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Welcome-to-mah-noetbeuk">Welcome to mah noetbeuk<a class="anchor-link" href="#Welcome-to-mah-noetbeuk">&#182;</a></h1>
+<h1 id="EDA">EDA<a class="anchor-link" href="#EDA">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -11827,7 +11827,15 @@ $( document ).ready(function(){
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="h1">h1<a class="anchor-link" href="#h1">&#182;</a></h1>
+<p>Assuming we've gathered the data and...</p>
+
+<pre><code>- Joined in any applicable external data sets
+- Removed any non-useful columns (requires domain expertise)
+- Removed and/or imputed nulls
+- Performed any feature engineering (PolynomialFeatures, etc.)
+    - Faceted plots can help here and other visualizations
+    - Potentially discretiztion (make numeric into a category 'bin') for classification models</code></pre>
+
 </div>
 </div>
 </div>
@@ -11849,7 +11857,76 @@ $( document ).ready(function(){
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="h2">h2<a class="anchor-link" href="#h2">&#182;</a></h2>
+<h1 id="Feature-Selection">Feature Selection<a class="anchor-link" href="#Feature-Selection">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="pd.corr">pd.corr<a class="anchor-link" href="#pd.corr">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="KBest">KBest<a class="anchor-link" href="#KBest">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>'Top down' - starts with the best feature and adds the 'next best' feature</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="KBest-Classification">KBest Classification<a class="anchor-link" href="#KBest-Classification">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Classification: uses ANOVA F-score
+        <a href="http://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.f_clas">http://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.f_clas</a></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.datasets</span> <span class="k">import</span> <span class="n">load_breast_cancer</span>
+<span class="kn">from</span> <span class="nn">sklearn.feature_selection</span> <span class="k">import</span> <span class="n">SelectKBest</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">load_breast_cancer</span><span class="p">()</span>
+
+<span class="n">X</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">data</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">target</span> <span class="o">*</span> <span class="o">-</span><span class="mi">1</span> <span class="o">+</span> <span class="mi">1</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="KBest-Regression">KBest Regression<a class="anchor-link" href="#KBest-Regression">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -11871,7 +11948,7 @@ $( document ).ready(function(){
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="h3">h3<a class="anchor-link" href="#h3">&#182;</a></h3>
+<h1 id="Regression">Regression<a class="anchor-link" href="#Regression">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -11893,7 +11970,7 @@ $( document ).ready(function(){
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="h4">h4<a class="anchor-link" href="#h4">&#182;</a></h4>
+<h1 id="Classification">Classification<a class="anchor-link" href="#Classification">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -11910,6 +11987,62 @@ $( document ).ready(function(){
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="KNN">KNN<a class="anchor-link" href="#KNN">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="SVMs">SVMs<a class="anchor-link" href="#SVMs">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Nonsemble-Trees">Nonsemble Trees<a class="anchor-link" href="#Nonsemble-Trees">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Bagging-Ensemble">Bagging Ensemble<a class="anchor-link" href="#Bagging-Ensemble">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Boosting-Ensemble">Boosting Ensemble<a class="anchor-link" href="#Boosting-Ensemble">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Model-Tuning">Model Tuning<a class="anchor-link" href="#Model-Tuning">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Gridsearch">Gridsearch<a class="anchor-link" href="#Gridsearch">&#182;</a></h2>
+</div>
+</div>
 </div>
     </div>
   </div>
