@@ -1,6 +1,6 @@
 | Notebook | Video |
 |:---|:---|
-| <ul><li>[Train Test Split](http://)</li><li>[Cross Validation](http://)</il></ul> | <ul><li>[TTS and CV](https://youtu.be/-ACWQcDJmO8) |
+| <ul><li>[Train Test Split](http://)</li><li>[Cross Validation](http://)</li></ul> | <ul><li>[TTS and CV](https://youtu.be/-ACWQcDJmO8)</li></ul> |
 | [Regression](http://) | <ul><li>[Linear Regression](https://youtu.be/oX1IxWJ93bA)</li></ul> |
 | <ul><li>[Lasso](http://)</li><li>[Ridge](http://)</li><li>[Elastic Net](http://)</li></ul> | <ul><li>[Regularization](https://youtu.be/535hAN9sbvE)</li></ul> |
 
