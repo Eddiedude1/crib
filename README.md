@@ -1,15 +1,15 @@
 # Course Cheatsheets
 | Notebook | Video |
 |:---|:---|
-| <ul><li>[Train Test Split](http://)</li><li>[Cross Validation](http://)</li></ul> | <ul><li>[TTS and CV](https://youtu.be/-ACWQcDJmO8)</li></ul> |
-| [Regression](http://) | <ul><li>[Linear Regression](https://youtu.be/oX1IxWJ93bA)</li></ul> |
-| <ul><li>[Lasso](http://)</li><li>[Ridge](http://)</li><li>[Elastic Net](http://)</li></ul> | <ul><li>[Regularization](https://youtu.be/535hAN9sbvE)</li></ul> |
-| <ul><li>[KNN](http://)</li><li>[Logistic Regression](http://)</li><li>[Grid Search](http://)</li><li>[SVMs]</li></ul> | <ul><li>[KNN & Logistic Regression](https://youtu.be/HalntK60F44)</li><li>[Evaluating Classifiers](https://youtu.be/hEA-2IAGQaU)</li><li>[SVM Classification](https://youtu.be/xjHEKy7cEFY)</li></ul> | 
-| <ul><li>[Decision Trees](http://)</li><li>[Ensemble Methods/Random Forest](http://)</li><li>[Bagging and Boosting](http://) | <ul><li>[DTs and Bagging](https://youtu.be/MOTG2zK_WO8)</li><li>[Boosting](https://youtu.be/hTs9-I_aAHA)</li> |
-| <ul><li>[Intro to HTML](http://)</li><li>[Scraping & BeautifulSoup](http://)</li><li>[APIs & JSON](http://)</li></ul> | <ul><li>[Intro to HTML](https://youtu.be/hTs9-I_aAHA?t=2h2m58s)</li><li>[HTML part 2](https://youtu.be/v5LUX42711o)</li><li>[APIs and JSON](https://youtu.be/sqZ3QjYp5z4)</li></ul> |
-| <ul><li>[k-Means](http://)</li><li>[DBSCAN](http://)</li><li>[Hierarchical Clustering](http://)</li><li>[PCA](http://)</li></ul> | <ul><li>[k-Means & DBSCAN](https://youtu.be/Fzq_8ecOIkI)</li><li>[Hierarchical Clustering and Clustering Evaluation](https://youtu.be/7APWI2l7YHU)</li><li>[PCA](https://youtu.be/Twu5n-qFbKU)</li></ul> |
-| [Pipelines](http://) | [Intro to OOP and Pipelines](https://youtu.be/yM8Mu9a5bMo) | 
-| <h2>NLP</h2><h3>NLP H3</h3><h4>NLP H4</h4><h5>NLP H5</h5><h6>NLP H6</h6> <ul><li>[CountVectorizer](http://)</li><li>[HashVectorizer](http://)</li><li>[Tf-Idf](http://)</li><li>[Regex / Regular Expressions](http://)</li></ul> | <ul><li>[Intro to NLP](https://youtu.be/UzyZLXcXPvU)</li><li>[Spacy, Textblob, LDA](https://youtu.be/6CTINAd3FCI)</li></ul> |
+| <h6>Preprocessing</h6> <ul><li>[Train Test Split](http://)</li><li>[Cross Validation](http://)</li></ul> | <ul><li>[TTS and CV](https://youtu.be/-ACWQcDJmO8)</li></ul> |
+| <h6>Regression</h6> [Regression](http://) | <ul><li>[Linear Regression](https://youtu.be/oX1IxWJ93bA)</li></ul> |
+| <h6>Regularization</h6> <ul><li>[Lasso](http://)</li><li>[Ridge](http://)</li><li>[Elastic Net](http://)</li></ul> | <ul><li>[Regularization](https://youtu.be/535hAN9sbvE)</li></ul> |
+| <h6>Classification</h6> <ul><li>[KNN](http://)</li><li>[Logistic Regression](http://)</li><li>[Grid Search](http://)</li><li>[SVMs]</li></ul> | <ul><li>[KNN & Logistic Regression](https://youtu.be/HalntK60F44)</li><li>[Evaluating Classifiers](https://youtu.be/hEA-2IAGQaU)</li><li>[SVM Classification](https://youtu.be/xjHEKy7cEFY)</li></ul> | 
+| <h6>Decision Trees & Ensembles</h6> <ul><li>[Decision Trees](http://)</li><li>[Ensemble Methods/Random Forest](http://)</li><li>[Bagging and Boosting](http://) | <ul><li>[DTs and Bagging](https://youtu.be/MOTG2zK_WO8)</li><li>[Boosting](https://youtu.be/hTs9-I_aAHA)</li> |
+| <h6>Scraping / APIs</h6><ul><li>[Intro to HTML](http://)</li><li>[Scraping & BeautifulSoup](http://)</li><li>[APIs & JSON](http://)</li></ul> | <ul><li>[Intro to HTML](https://youtu.be/hTs9-I_aAHA?t=2h2m58s)</li><li>[HTML part 2](https://youtu.be/v5LUX42711o)</li><li>[APIs and JSON](https://youtu.be/sqZ3QjYp5z4)</li></ul> |
+| <h6>Clustering</h6><ul><li>[k-Means](http://)</li><li>[DBSCAN](http://)</li><li>[Hierarchical Clustering](http://)</li><li>[PCA](http://)</li></ul> | <ul><li>[k-Means & DBSCAN](https://youtu.be/Fzq_8ecOIkI)</li><li>[Hierarchical Clustering and Clustering Evaluation](https://youtu.be/7APWI2l7YHU)</li><li>[PCA](https://youtu.be/Twu5n-qFbKU)</li></ul> |
+| <h6>Pipelines</h6> [Pipelines](http://) | [Intro to OOP and Pipelines](https://youtu.be/yM8Mu9a5bMo) | 
+| <h6>NLP</h6> <ul><li>[CountVectorizer](http://)</li><li>[HashVectorizer](http://)</li><li>[Tf-Idf](http://)</li><li>[Regex / Regular Expressions](http://)</li></ul> | <ul><li>[Intro to NLP](https://youtu.be/UzyZLXcXPvU)</li><li>[Spacy, Textblob, LDA](https://youtu.be/6CTINAd3FCI)</li></ul> |
 
 # Spark / Scala Cheatsheets
 | Topic | Notebooks | Video |
