@@ -10,6 +10,7 @@
 | <h6>Clustering</h6><ul><li>[k-Means](http://)</li><li>[DBSCAN](http://)</li><li>[Hierarchical Clustering](http://)</li><li>[PCA](http://)</li></ul> | <h6></h6><ul><li>[k-Means & DBSCAN](https://youtu.be/Fzq_8ecOIkI)</li><li>[Hierarchical Clustering and Clustering Evaluation](https://youtu.be/7APWI2l7YHU)</li><li>[PCA](https://youtu.be/Twu5n-qFbKU)</li></ul> |
 | <h6>Pipelines</h6> <ul><li>[Pipelines](http://htmlpreview.github.io/?https://raw.githubusercontent.com/ggodreau/crib/toc/pipelines/pipelines.html)</li></ul> | <h6></h6><ul><li>[Intro to OOP and Pipelines](https://youtu.be/yM8Mu9a5bMo)</li></ul> | 
 | <h6>NLP</h6> <ul><li>[CountVectorizer](http://)</li><li>[HashVectorizer](http://)</li><li>[Tf-Idf](http://)</li><li>[Regex / Regular Expressions](http://)</li></ul> | <h6></h6><ul><li>[Intro to NLP](https://youtu.be/UzyZLXcXPvU)</li><li>[Spacy, Textblob, LDA](https://youtu.be/6CTINAd3FCI)</li></ul> |
+| <h6>Neural Nets</h6> <ul><li>[Architecture](http://)</li><li>[Keras](http://)</li><li>[Tensorflow](http://)</li></ul> | <h6></h6><ul><li>[Intro to Neural Nets](https://youtu.be/IxgW-vlfVOU)</li><li>[Intro to Keras](https://youtu.be/Jx4-uw6era4)</li><li>[Intro to CNNs](https://youtu.be/l3OSlZwi4HM)</li><li>[Intro to Tensorflow](https://youtu.be/D7OCvOn7X1o)</li></ul> |
 
 # Spark / Scala Cheatsheets
 | Topic | Notebooks | Video |
