@@ -8,7 +8,7 @@
 | <h6>Decision Trees & Ensembles</h6> <ul><li>[Decision Trees](http://)</li><li>[Ensemble Methods/Random Forest](http://)</li><li>[Bagging and Boosting](http://) | <h6></h6><ul><li>[DTs and Bagging](https://youtu.be/MOTG2zK_WO8)</li><li>[Boosting](https://youtu.be/hTs9-I_aAHA)</li> |
 | <h6>Scraping / APIs</h6><ul><li>[Intro to HTML](http://)</li><li>[Scraping & BeautifulSoup](http://)</li><li>[APIs & JSON](http://)</li></ul> | <h6></h6><ul><li>[Intro to HTML](https://youtu.be/hTs9-I_aAHA?t=2h2m58s)</li><li>[HTML part 2](https://youtu.be/v5LUX42711o)</li><li>[APIs and JSON](https://youtu.be/sqZ3QjYp5z4)</li></ul> |
 | <h6>Clustering</h6><ul><li>[k-Means](http://)</li><li>[DBSCAN](http://)</li><li>[Hierarchical Clustering](http://)</li><li>[PCA](http://)</li></ul> | <h6></h6><ul><li>[k-Means & DBSCAN](https://youtu.be/Fzq_8ecOIkI)</li><li>[Hierarchical Clustering and Clustering Evaluation](https://youtu.be/7APWI2l7YHU)</li><li>[PCA](https://youtu.be/Twu5n-qFbKU)</li></ul> |
-| <h6>Pipelines</h6> [Pipelines](http://) | <h6></h6>[Intro to OOP and Pipelines](https://youtu.be/yM8Mu9a5bMo) | 
+| <h6>Pipelines</h6> [Pipelines](./pipelines/pipelines.ipynb) | <h6></h6>[Intro to OOP and Pipelines](https://youtu.be/yM8Mu9a5bMo) | 
 | <h6>NLP</h6> <ul><li>[CountVectorizer](http://)</li><li>[HashVectorizer](http://)</li><li>[Tf-Idf](http://)</li><li>[Regex / Regular Expressions](http://)</li></ul> | <h6></h6><ul><li>[Intro to NLP](https://youtu.be/UzyZLXcXPvU)</li><li>[Spacy, Textblob, LDA](https://youtu.be/6CTINAd3FCI)</li></ul> |
 
 # Spark / Scala Cheatsheets
